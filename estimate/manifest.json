@@ -1,0 +1,15 @@
+{
+  "name": "청풍 현장견적",
+  "short_name": "청풍견적",
+  "description": "현장 실측에서 방음공사 견적서를 바로 만드는 앱",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f5f7",
+  "theme_color": "#1f5f8b",
+  "lang": "ko",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

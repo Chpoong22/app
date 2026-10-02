@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#0f172a">
+<title>로또 6/45 번호 도우미</title>
+<style>
+*{box-sizing:border-box}html{overflow-x:hidden}body{margin:0;font:15px/1.4 system-ui,sans-serif;background:#0f172a;color:#e2e8f0}
+header{padding:12px 16px;background:#1e293b;position:sticky;top:0;z-index:2}
+h1{margin:0 0 8px;font-size:18px}main{padding:12px;max-width:640px;margin:auto}
+.tabs,.per{display:flex;gap:6px;margin-top:6px}.tabs button,.per button{flex:1;min-width:0}
+button{background:#334155;color:#fff;border:0;border-radius:8px;padding:10px;font-size:14px}
+button.on,button.pri{background:#2563eb}.per button{padding:6px 2px;font-size:12px}
+.card{background:#1e293b;border-radius:12px;padding:12px;margin:10px 0}
+.balls{display:flex;gap:5px;align-items:center;flex-wrap:wrap}
+.b{width:32px;height:32px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#111}
+.b.s{width:26px;height:26px;font-size:12px}.plus{color:#94a3b8}
+.y{background:#fbc400}.u{background:#69c8f2}.r{background:#ff7272;color:#fff}.g{background:#aaa}.n{background:#b0d840}
+.sub{color:#94a3b8;font-size:12px}.row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.fr{display:flex;align-items:center;gap:6px;margin:2px 0}.fr .b{flex:none}.fr .bar{height:14px;border-radius:4px;background:#2563eb}.fr span{font-size:12px;color:#94a3b8;white-space:nowrap}
+.warn{background:#422006;color:#fcd34d;border-radius:8px;padding:8px;font-size:13px;margin:8px 0}
+.modes{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.modes button{padding:8px 10px}
+input{padding:8px;border-radius:8px;border:1px solid #475569;background:#0f172a;color:#fff;width:120px}
+</style></head><body>
+<header><h1>🎱 로또 6/45 번호 도우미</h1>
+<div class="per" id="per"></div>
+<div class="tabs"><button id="t1">통계</button><button id="t2">번호 추천</button><button id="t3">당첨번호</button></div></header>
+<main id="v"></main>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
